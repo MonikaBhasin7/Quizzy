@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techsdm.quizzy.ShowQuestion">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ic_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="71dp"
+        android:onClick="forward_button_click"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chewy"
+            android:text="MS Dhoni"
+            android:textAlignment="viewStart"
+            android:textSize="24sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clue1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#00b3b3"
+            android:backgroundTint="@color/colorBluePeacock"
+            android:layout_marginTop="120dp" />
+        <Button
+            android:id="@+id/clue2"
+            android:layout_width="200dp"
+            android:onClick="clue2_click"
+            android:background="#00b3b3"
+            android:layout_marginTop="180dp"
+            android:backgroundTint="@color/colorBluePeacock"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/clue3"
+            android:layout_width="200dp"
+            android:onClick="clue3_click"
+            android:background="#00b3b3"
+            android:layout_marginTop="240dp"
+            android:backgroundTint="@color/colorBluePeacock"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/clue4"
+            android:layout_width="200dp"
+            android:onClick="clue4_click"
+            android:background="#00b3b3"
+            android:layout_marginTop="300dp"
+            android:backgroundTint="@color/colorBluePeacock"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+</RelativeLayout>

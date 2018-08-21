@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1025021699321",
+    "firebase_url": "https://motivation-dbe91.firebaseio.com",
+    "project_id": "motivation-dbe91",
+    "storage_bucket": "motivation-dbe91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025021699321:android:edee914f013cdd29",
+        "android_client_info": {
+          "package_name": "com.techsdm.quizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025021699321-fl39892p6o2qe8j4n7avunhtbgu7lmfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techsdm.quizzy",
+            "certificate_hash": "cf788b65f498e2bcac3ed96aaa033c213aee1619"
+          }
+        },
+        {
+          "client_id": "1025021699321-kc6r0217p37744kcbd2ar9trhiuqsspf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwcMlVHEVVIarcd-VP_4uLCxtc9veaQwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025021699321-kc6r0217p37744kcbd2ar9trhiuqsspf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
